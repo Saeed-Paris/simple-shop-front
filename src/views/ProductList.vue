@@ -33,7 +33,7 @@ let j = ref(0)
     <section class="max-w-7xl mx-auto grid grid-cols-9 w-4/5">
         <div class="col-start-1 col-end-3 py-8">
             <SearchInput />
-            <button class="lg bg-black py-3 px-6 text-white">اعمال فیلتر</button>
+            <!-- <button class="lg bg-black py-3 px-6 text-white">اعمال فیلتر</button> -->
         </div>
         <section class="flex flex-col col-start-4 col-end-10">
             <section class="hidden lg:flex justify-between items-center flex-wrap  bg-white box-shaddow20 p-3 mb-3">

@@ -11,7 +11,7 @@ const store = useProductsStore()
         <router-link class="border border-black text-lg px-2 py-1" to="/">لیست محصولات</router-link>
         <router-link to="/Cart" class="relative">
             <CartSVG />
-            <span class="cart__button__quantity">{{store.cart}}</span>
+            <span class="cart__button__quantity">3</span>
         </router-link>
     </header>
 </template>
