@@ -1,0 +1,37 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'yekan-bakh';
+    src: url('@/assets/fonts/Yekan_bakh/Yekan-Bakh-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yekan-bakh-bold';
+    src: url('@/assets/fonts/Yekan_bakh/Yekan-Bakh-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yekan-bakh-heady';
+    src: url('@/assets/fonts/Yekan_bakh/Yekan-Bakh-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.text-bold {
+    font-family: yekan-bakh-bold;
+}
+
+.text-heavy {
+    font-family: yekan-bakh-heavy;
+}
+
+* {
+    font-family: yekan-bakh;
+}
